@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'teko';
+    src: url('/font/Teko-Regular.ttf') format('truetype');
+}
+h1{
+    font-family: 'teko';
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    font-size: 90px ;
+}
