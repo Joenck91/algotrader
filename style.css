@@ -1,30 +1,30 @@
 @font-face {
     font-family: 'cs';
-    src: url('/font/cs_regular.ttf') format('truetype');
+    src: url('font/cs_regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'inter';
-    src: url('/font/Inter-Regular.ttf') format('truetype');
+    src: url('font/Inter-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'hora';
-    src: url('/font/Open\ 24\ Display\ St.ttf') format('truetype');
+    src: url('font/Open\ 24\ Display\ St.ttf') format('truetype');
 }
 @font-face {
     font-family: 'maquina';
-    src: url('/font/Type\ Machine.ttf') format('truetype');
+    src: url('font/Type\ Machine.ttf') format('truetype');
 }
 @font-face {
     font-family: 'kanit';
-    src: url('/font/Kanit-Regular.ttf') format('truetype');
+    src: url('font/Kanit-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'teko';
-    src: url('/font/Teko-Regular.ttf') format('truetype');
+    src: url('font/Teko-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'intersemi';
-    src: url('/font/Inter-SemiBold.ttf') format('truetype');
+    src: url('font/Inter-SemiBold.ttf') format('truetype');
 }
 body{
     margin: 0;
@@ -42,8 +42,6 @@ body{
 .um{
     padding-top: 39px;
     background-image: url('/img/backgrounds/back-txture.webp');
-    
-    
 }
 .boxheader{
     max-width:342px;
@@ -125,6 +123,14 @@ h1{
     display: block;
     padding-bottom: 80px;
 
+
+
+
+
+
+
+
+
 }
 .dois{
     display: flex;
@@ -132,7 +138,7 @@ h1{
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    background-image: url('/img/backgrounds/back-fin-5.webp');
+    background-image: url('/img/backgrounds/back-8.jpg');
     background-size:cover;
     background-position: center;
 }
@@ -155,7 +161,7 @@ margin-bottom: 110px;
     margin: 0;
 }
 .boxconteudoladeira{
-    background-image:url('/img/backgrounds/back-txture.webp');
+    background-image:url('img/backgrounds/back-txture.webp');
     max-width: 360px;
     margin-top: -100px;
     border-radius: 10px;
@@ -509,7 +515,7 @@ h1{
         padding-bottom: 100px;
     }
     .boxladeira{
-        background-image: url('/img/backgrounds/back-txture.webp');
+        background-image: url('img/backgrounds/back-txture.webp');
     }
     .boxconteudoladeira{
         box-shadow: 0 0 15px rgb(59, 183, 255);
@@ -520,7 +526,7 @@ h1{
         box-shadow: 0 0 20px yellowgreen;
     }
     .tres{
-        background-image: url('/img/backgrounds/back-txture.webp');
+        background-image: url('img/backgrounds/back-txture.webp');
     }
     .contador{
         padding-bottom: 50px;
