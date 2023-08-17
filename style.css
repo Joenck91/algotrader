@@ -41,7 +41,7 @@ body{
 }
 .um{
     padding-top: 39px;
-    background-image: url('/img/backgrounds/back-txture.webp');
+    background-image: url('img/backgrounds/back-txture.webp');
 }
 .boxheader{
     max-width:342px;
@@ -138,7 +138,7 @@ h1{
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    background-image: url('/img/backgrounds/back-8.jpg');
+    background-image: url('img/backgrounds/back-8.jpg');
     background-size:cover;
     background-position: center;
 }
