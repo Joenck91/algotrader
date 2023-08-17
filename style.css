@@ -42,6 +42,8 @@ body{
 .um{
     padding-top: 39px;
     background-image: url('/img/backgrounds/back-txture.webp');
+    
+    
 }
 .boxheader{
     max-width:342px;
@@ -53,7 +55,7 @@ body{
     justify-content: center;
 }
 .logo{
-    width: 126px;
+    width: 136px;
     max-width: 100%;
     margin-top: -50px;
     margin-bottom: -25px;
@@ -123,14 +125,6 @@ h1{
     display: block;
     padding-bottom: 80px;
 
-
-
-
-
-
-
-
-
 }
 .dois{
     display: flex;
@@ -138,8 +132,9 @@ h1{
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    background-image: url('/img/backgrounds/back-8.jpg');
+    background-image: url('/img/backgrounds/back-fin-5.webp');
     background-size:cover;
+    background-position: center;
 }
 .boxprovasocial{
 margin-top: -80px;
@@ -204,6 +199,161 @@ margin-bottom: 110px;
     padding-left: 10px;
     font-size: 18px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.planos{
+    background-image: url('img/backgrounds/back-8.jpg');
+    background-size: cover;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+}
+.separa{
+    padding: 40px;
+}
+.tituloplanos{
+    color: aqua;
+    background-image: url('img/backgrounds/back-txture.webp');
+    box-shadow: 0 0 5px aqua;
+    font-size: 38px;
+    font-family: 'teko';
+    letter-spacing: 5px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.divanual{
+    background-image: url('img/backgrounds/back-txture.webp');
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    max-width: 360px;
+    box-shadow: 0 0 5px aliceblue;
+}
+.divanual>p>strong{
+    font-size: 46px;
+    font-family: 'teko';
+    letter-spacing: 4px;
+    text-align: center;
+    justify-content: center;
+}
+.divanual>p{
+  
+    font-size: 22px;
+}
+/* o id oitocentos esta estilizando o preço da vitalicia tbm, 1497,00*/
+#oitocentos{
+    color: yellowgreen;
+    font-size: 56px;
+    text-align: center;
+    padding-top: 25px;
+}
+.preçoanual > .parcela{
+    text-align: right;
+    color: rgb(255, 181, 85);
+    letter-spacing: 2px;
+}
+.botao{
+    padding: 15px;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.linkanual{
+    text-decoration: none;
+    color: #242424d0;
+}
+.linkanual:visited{
+    color: #242424d0;
+}
+
+
+
+
+
+
+
+
+
+.divvitalicia{
+    background-image: url('img/backgrounds/back-txture.webp');
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    max-width: 360px;
+    box-shadow: 0 0 5px aliceblue;
+}
+.divvitalicia>p>strong{
+    font-size: 36px;
+    font-family: 'teko';
+    letter-spacing: 4px;
+    text-align: center;
+    justify-content: center;
+}
+.divvitalicia>p{
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .divcta{
     display: flex;
     justify-content: center;
@@ -225,12 +375,16 @@ margin-bottom: 110px;
     box-shadow: 0 0 5px yellowgreen;
 }
 .tres{
-   background-color: black;
+   background-image: url('img/backgrounds/back-txture.webp');
     text-align: center;
     font-size: 12px;
     color: aliceblue;
+    box-shadow: 0 0 5px aliceblue;
     font-family: 'kanit';
     padding-bottom: 10px;
+}
+.copyright{
+    padding-top: 5px;
 }
 /*tablets*/
 @media screen and (min-device-width:780px) and (max-width:992px){
@@ -291,7 +445,6 @@ h1{
 .escudo{
     padding-right: 500px;
 }
-
 }
 /*tablets horizontal*/
 @media screen and (min-device-width:992px){
