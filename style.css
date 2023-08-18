@@ -26,6 +26,10 @@
     font-family: 'intersemi';
     src: url('font/Inter-SemiBold.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'wpp';
+    src: url('font/Social\ Media\ Circled.otf') format('opentype');
+}
 body{
     margin: 0;
     border: 0;
@@ -122,15 +126,6 @@ h1{
     width: 40px;
     display: block;
     padding-bottom: 80px;
-
-
-
-
-
-
-
-
-
 }
 .dois{
     display: flex;
@@ -138,7 +133,7 @@ h1{
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    background-image: url('img/backgrounds/back-8.jpg');
+    background-image: url('img/backgrounds/back-fin-5.webp');
     background-size:cover;
     background-position: center;
 }
@@ -174,8 +169,7 @@ margin-bottom: 110px;
     font-family: 'intersemi';
     font-size: 26px;
     line-height: 34px;
-    padding: 38px 20px;
-    
+    padding: 38px 20px; 
 }
 .bordadivisoria{
     border-bottom: solid 3px rgb(83, 83, 83);
@@ -195,8 +189,7 @@ margin-bottom: 110px;
     flex-direction: row;
     text-align:left;
     padding: 10px;
-    font-family: 'inter';
-    
+    font-family: 'inter';   
 }
 .itemtexto{
     padding-left: 10px;
@@ -205,37 +198,6 @@ margin-bottom: 110px;
     padding-left: 10px;
     font-size: 18px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .planos{
     background-image: url('img/backgrounds/back-8.jpg');
     background-size: cover;
@@ -257,7 +219,9 @@ margin-bottom: 110px;
     border-radius: 15px;
     margin-top: 30px;
 }
-
+.boxplanos{ 
+    margin-bottom: 20px;
+}
 .divanual{
     background-image: url('img/backgrounds/back-txture.webp');
     margin-top: 20px;
@@ -268,7 +232,7 @@ margin-bottom: 110px;
     max-width: 360px;
     box-shadow: 0 0 5px aliceblue;
 }
-.divanual>p>strong{
+.divanual>strong{
     font-size: 46px;
     font-family: 'teko';
     letter-spacing: 4px;
@@ -276,10 +240,8 @@ margin-bottom: 110px;
     justify-content: center;
 }
 .divanual>p{
-  
     font-size: 22px;
 }
-/* o id oitocentos esta estilizando o preço da vitalicia tbm, 1497,00*/
 #oitocentos{
     color: yellowgreen;
     font-size: 56px;
@@ -291,7 +253,7 @@ margin-bottom: 110px;
     color: rgb(255, 181, 85);
     letter-spacing: 2px;
 }
-.botao{
+.botaoanual{
     padding: 15px;
     text-align: center;
     font-size: 26px;
@@ -307,19 +269,9 @@ margin-bottom: 110px;
 .linkanual:visited{
     color: #242424d0;
 }
-
-
-
-
-
-
-
-
-
 .divvitalicia{
     background-image: url('img/backgrounds/back-txture.webp');
     margin-top: 20px;
-    margin-bottom: 20px;
     padding: 10px 50px;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
@@ -327,8 +279,8 @@ margin-bottom: 110px;
     max-width: 360px;
     box-shadow: 0 0 5px aliceblue;
 }
-.divvitalicia>p>strong{
-    font-size: 36px;
+.divvitalicia>strong{
+    font-size: 46px;
     font-family: 'teko';
     letter-spacing: 4px;
     text-align: center;
@@ -336,50 +288,53 @@ margin-bottom: 110px;
 }
 .divvitalicia>p{
     font-size: 22px;
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.divcta{
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;;
+#milquatrocentos{
+    color: yellowgreen;
+    font-size: 56px;
+    text-align: center;
+    padding-top: 25px;
 }
-.boxcta{
+.preçovitalicio > .parcela{
+    text-align: right;
+    color: rgb(255, 181, 85);
+    letter-spacing: 2px;
+}
+.botaovitalicio{
+    padding: 15px;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
     background-color: yellowgreen;
-    justify-content: center;
-    border-radius: 7px;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
-.botaocta{
-    color: black;
+.linkvitalicio{
+    text-decoration: none;
+    color: #242424d0;
+}
+.linkvitalicio:visited{
+    color: #242424d0;
+}
+.boxwpp{
+    position: fixed;
+    color: #25d366;
     font-family: 'teko';
-    font-size: 36px;
-    padding: 0px 15px;
+    width: 100px;
+    height: 60px;
+    bottom: 40px;
+    right: 20px;
+    text-align: center;
 }
-.botaocta:hover{
-    font-size: 40px;
-    box-shadow: 0 0 5px yellowgreen;
+.boxwpp>a{
+    font-family: 'wpp';
+    font-size: 46px;
+    text-decoration: none;
+    color: #25d366;
 }
+
+
 .tres{
    background-image: url('img/backgrounds/back-txture.webp');
     text-align: center;
@@ -393,9 +348,12 @@ margin-bottom: 110px;
     padding-top: 5px;
 }
 /*tablets*/
-@media screen and (min-device-width:780px) and (max-width:992px){
+@media screen and (min-device-width:768px) and (max-width:992px){
 .boxheader{
     max-width: 720px;
+}
+.logo{
+    width: 156px;
 }
 .code9{
     font-size: 34px;
@@ -451,6 +409,49 @@ h1{
 .escudo{
     padding-right: 500px;
 }
+
+.boxplanos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.divanual{
+    margin: 5px;
+}
+.divanual>strong{
+    font-size: 47px;
+}
+.divanual>p{
+    font-size: 31px;
+}
+.divvitalicia{
+    margin: 5px;
+}
+.divvitalicia>strong{
+    font-size: 37px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 /*tablets horizontal*/
 @media screen and (min-device-width:992px){
@@ -486,7 +487,7 @@ h1{
         width: 450px;
     }
     .boxconteudoladeira{
-        max-width: 1050px;
+        max-width: 900px;
     }
     .headladeira{
         font-size: 36px;
@@ -505,11 +506,40 @@ h1{
     .escudo{
         padding-right: 700px;
     }
+    .boxplanos{
+        min-width: 900px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .divanual{
+        max-width: 420px;
+    }
+    .divanual>strong{
+        font-size: 56px;
+    }
+    .divanual>p{
+        font-size: 28px;
+        padding-bottom: 10px;
+        padding-top: 11px;
+    }
+    .divvitalicia{
+        max-width: 420px;
+    }
+
+
+
+
+
+
 }
 /*monitores*/
 @media screen and (min-device-width:1200px){
     .code9{
         font-size: 46px;
+    }
+    .logo{
+        width: 180px;
     }
     .dois{
         padding-bottom: 100px;
@@ -517,9 +547,20 @@ h1{
     .boxladeira{
         background-image: url('img/backgrounds/back-txture.webp');
     }
+    .bordadivisoria{
+        margin-right: 150px;
+        margin-left: 150px;
+    }
     .boxconteudoladeira{
         box-shadow: 0 0 15px rgb(59, 183, 255);
         margin-top: -220px;
+        display: flex;
+        justify-content: center;
+        max-width: 1200px;
+    }
+    .conteudoladeira{
+        min-width: 1100px;
+        padding: 40px;
     }
     .botaocta:hover{
         font-size: 56px;
@@ -530,5 +571,10 @@ h1{
     }
     .contador{
         padding-bottom: 50px;
+    }
+    .boxplanos{
+        min-width: 1100px;
+        display: flex;
+        flex-direction: row;
     }
 }
